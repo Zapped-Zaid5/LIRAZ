@@ -135,6 +135,32 @@
             border: 1px solid #e74c3c;
         }
         
+        .return-button-container {
+            text-align: center;
+            margin: 40px 0 20px 0;
+            padding: 20px;
+        }
+        
+        .return-button {
+            background-color: #e74c3c;
+            color: #1a1a2e;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+        
+        .return-button:hover {
+            background-color: #c0392b;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(231, 76, 60, 0.3);
+        }
+        
         footer {
             text-align: center;
             padding: 20px;
@@ -157,6 +183,11 @@
             
             .competition-grid {
                 grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            }
+            
+            .return-button {
+                padding: 12px 20px;
+                font-size: 1rem;
             }
         }
     </style>
@@ -300,8 +331,12 @@
         </section>
     </div>
     
+    <div class="return-button-container">
+        <a href="https://zapped-zaid5.github.io/REVIVAL-LOST/" class="return-button">← Return to Main Page</a>
+    </div>
+    
     <footer>
-        <p>© LOST by Transception Games | Website assistance by Vidyut</p>
+        <p>© REVIVAL: LOST by Transception Games | Website assistance by Vidyut</p>
     </footer>
 </body>
 </html>
